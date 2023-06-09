@@ -1,0 +1,25 @@
+docker build .                                      --> build image of Dockerfile
+docker run -p {port_host:port_container} {image_id} --> run image with id and expose port   
+
+
+
+
+----
+docker ps -a (all containers)
+docker ps
+docker stop {container_name} 
+
+
+
+
+
+
+
+
+---Git Info---
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/xkatsar/udemy-docker.git
+git push -u origin main
