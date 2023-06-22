@@ -1,14 +1,17 @@
+-- For very very Start--
 docker build .                                      --> build image of Dockerfile
 docker run -p {port_host:port_container} {image_id} --> run image with id and expose port   
-
-
+------------------------
 
 
 ----
 docker ps -a (all containers)
 docker ps
-docker stop {container_name} 
+docker stop {container_name}
+-----
 
+---Container--
+docker start {container_name}    --> restarts a stopped container
 
 
 
